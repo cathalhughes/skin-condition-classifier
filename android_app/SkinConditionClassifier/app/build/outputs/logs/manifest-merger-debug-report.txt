@@ -1,0 +1,147 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:3:5-57
+		INJECTED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:4:5-65
+MERGED from [com.flurgle:camerakit:0.9.17] C:\Users\Cathal\.android\build-cache\0df254a511667f852ddb48c758b5ca53c91800ca\output\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:4:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:5:5-60
+MERGED from [com.flurgle:camerakit:0.9.17] C:\Users\Cathal\.android\build-cache\0df254a511667f852ddb48c758b5ca53c91800ca\output\AndroidManifest.xml:14:5-60
+	android:name
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:5:19-57
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:8:23-65
+application
+ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:10:5-28:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Cathal\.android\build-cache\2c758476a92f0a7f451193a292e11bfed57b4403\output\AndroidManifest.xml:9:5-20
+MERGED from [com.flurgle:camerakit:0.9.17] C:\Users\Cathal\.android\build-cache\0df254a511667f852ddb48c758b5ca53c91800ca\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\ea07b9d67be0fe15de25eb7872f00954eccc2a95\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\392da0b99027a2fa5088f6f16f96e709d7ef7912\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\7fab6e9f1e35dc1170ef9258947dad5aef28e9cf\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\afbecb011a80a784e1c6f2877e5ba8bbc126d1e9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\4fc2043d92a1d7936ca5a00dad131a2f6fb1d545\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\87a6da7dc33f9833ed1da8753a7c3bdd4c3e2bc2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\2da85617e5694bf3dfb1957b410dcc1c047442af\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\800ca01c75debe04aafbf45eef81127e54ef4c6c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\0ca9fae5b8d8a40c71232b0bbe54c162ebb816d1\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:13:9-49
+	android:supportsRtl
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:15:9-35
+	android:roundIcon
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:12:9-38
+	android:largeHeap
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:17:9-33
+	android:theme
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.example.cathal.skinconditionclassifier.SplashActivity
+ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:18:19-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.example.cathal.skinconditionclassifier.MainActivity
+ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:25:9-49
+	android:name
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:25:19-47
+activity#com.example.cathal.skinconditionclassifier.UploadActivity
+ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:26:9-51
+	android:name
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:26:19-49
+activity#com.example.cathal.skinconditionclassifier.SkinActivity
+ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:27:9-49
+	android:name
+		ADDED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml:27:19-47
+uses-sdk
+INJECTED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Cathal\.android\build-cache\2c758476a92f0a7f451193a292e11bfed57b4403\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.flurgle:camerakit:0.9.17] C:\Users\Cathal\.android\build-cache\0df254a511667f852ddb48c758b5ca53c91800ca\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\ea07b9d67be0fe15de25eb7872f00954eccc2a95\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\392da0b99027a2fa5088f6f16f96e709d7ef7912\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\7fab6e9f1e35dc1170ef9258947dad5aef28e9cf\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\afbecb011a80a784e1c6f2877e5ba8bbc126d1e9\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\4fc2043d92a1d7936ca5a00dad131a2f6fb1d545\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\87a6da7dc33f9833ed1da8753a7c3bdd4c3e2bc2\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\2da85617e5694bf3dfb1957b410dcc1c047442af\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\800ca01c75debe04aafbf45eef81127e54ef4c6c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\0ca9fae5b8d8a40c71232b0bbe54c162ebb816d1\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\ea07b9d67be0fe15de25eb7872f00954eccc2a95\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Cathal\Documents\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\code\android_app\SkinConditionClassifier\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [com.flurgle:camerakit:0.9.17] C:\Users\Cathal\.android\build-cache\0df254a511667f852ddb48c758b5ca53c91800ca\output\AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from [com.flurgle:camerakit:0.9.17] C:\Users\Cathal\.android\build-cache\0df254a511667f852ddb48c758b5ca53c91800ca\output\AndroidManifest.xml:12:22-68
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.flurgle:camerakit:0.9.17] C:\Users\Cathal\.android\build-cache\0df254a511667f852ddb48c758b5ca53c91800ca\output\AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from [com.flurgle:camerakit:0.9.17] C:\Users\Cathal\.android\build-cache\0df254a511667f852ddb48c758b5ca53c91800ca\output\AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from [com.flurgle:camerakit:0.9.17] C:\Users\Cathal\.android\build-cache\0df254a511667f852ddb48c758b5ca53c91800ca\output\AndroidManifest.xml:16:9-57
+uses-feature#android.hardware.camera.front
+ADDED from [com.flurgle:camerakit:0.9.17] C:\Users\Cathal\.android\build-cache\0df254a511667f852ddb48c758b5ca53c91800ca\output\AndroidManifest.xml:18:5-20:36
+	android:required
+		ADDED from [com.flurgle:camerakit:0.9.17] C:\Users\Cathal\.android\build-cache\0df254a511667f852ddb48c758b5ca53c91800ca\output\AndroidManifest.xml:20:9-33
+	android:name
+		ADDED from [com.flurgle:camerakit:0.9.17] C:\Users\Cathal\.android\build-cache\0df254a511667f852ddb48c758b5ca53c91800ca\output\AndroidManifest.xml:19:9-53
+uses-feature#android.hardware.microphone
+ADDED from [com.flurgle:camerakit:0.9.17] C:\Users\Cathal\.android\build-cache\0df254a511667f852ddb48c758b5ca53c91800ca\output\AndroidManifest.xml:21:5-23:36
+	android:required
+		ADDED from [com.flurgle:camerakit:0.9.17] C:\Users\Cathal\.android\build-cache\0df254a511667f852ddb48c758b5ca53c91800ca\output\AndroidManifest.xml:23:9-33
+	android:name
+		ADDED from [com.flurgle:camerakit:0.9.17] C:\Users\Cathal\.android\build-cache\0df254a511667f852ddb48c758b5ca53c91800ca\output\AndroidManifest.xml:22:9-51
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\ea07b9d67be0fe15de25eb7872f00954eccc2a95\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\392da0b99027a2fa5088f6f16f96e709d7ef7912\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\7fab6e9f1e35dc1170ef9258947dad5aef28e9cf\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\afbecb011a80a784e1c6f2877e5ba8bbc126d1e9\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\4fc2043d92a1d7936ca5a00dad131a2f6fb1d545\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\87a6da7dc33f9833ed1da8753a7c3bdd4c3e2bc2\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\2da85617e5694bf3dfb1957b410dcc1c047442af\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\800ca01c75debe04aafbf45eef81127e54ef4c6c\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\0ca9fae5b8d8a40c71232b0bbe54c162ebb816d1\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\ea07b9d67be0fe15de25eb7872f00954eccc2a95\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Cathal\.android\build-cache\ea07b9d67be0fe15de25eb7872f00954eccc2a95\output\AndroidManifest.xml:26:9-47

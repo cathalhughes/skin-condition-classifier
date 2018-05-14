@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email</title>
+</head>
+<body>
+
+<p>Hi User, </p>
+<p></p>
+<p>The image you uploaded for classification is attached with this email.</p>
+<p></p>
+<p>Here are your results from classification:</p>
+<p></p>
+{% for result in results %}
+    {% if result[0] >= 50 %}
+    <p>{{result[1] + " - " + result[0]|string + "% " + "- " + result[2]}}</p>
+    {% else %}
+    <p>{{result[1] + " - " + result[0]|string + "%"}}</p>
+    {% endif %}
+{% endfor %}
+
+
+<p></p>
+<p>The bar chart representation of these results has also been attached with this email.</p>
+<p></p>
+<p>Kind Regards,</p>
+<p></p>
+<p>The Skin Condition Classification Team</p>
+</body>
+</html>

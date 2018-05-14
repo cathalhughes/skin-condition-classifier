@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Cathal\\Documents\\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\\code\\android_app\\SkinConditionClassifier\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Cathal\\.android\\build-cache\\ea07b9d67be0fe15de25eb7872f00954eccc2a95\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cathal\\Documents\\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\\code\\android_app\\SkinConditionClassifier\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Cathal\\.android\\build-cache\\ea07b9d67be0fe15de25eb7872f00954eccc2a95\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cathal\\Documents\\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\\code\\android_app\\SkinConditionClassifier\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Cathal\\.android\\build-cache\\ea07b9d67be0fe15de25eb7872f00954eccc2a95\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cathal\\Documents\\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\\code\\android_app\\SkinConditionClassifier\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Cathal\\.android\\build-cache\\ea07b9d67be0fe15de25eb7872f00954eccc2a95\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cathal\\Documents\\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\\code\\android_app\\SkinConditionClassifier\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Cathal\\.android\\build-cache\\ea07b9d67be0fe15de25eb7872f00954eccc2a95\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cathal\\Documents\\2018-CA326-rbrady-skinconditionclassificationsystemusingdeeplearning\\code\\android_app\\SkinConditionClassifier\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\Cathal\\.android\\build-cache\\ea07b9d67be0fe15de25eb7872f00954eccc2a95\\output\\res\\layout-v11\\notification_media_action.xml"
+    }
+]
