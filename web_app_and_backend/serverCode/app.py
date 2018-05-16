@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 from model.loadModel import *
 from flask_mail import Message, Mail
 import json
+import tensorflow as tf
 
 app = Flask(__name__)
 app.secret_key = "MY_SECRET_KEY"
@@ -17,12 +18,16 @@ VALID_EXTENSIONS = ["png", "jpg", "jpeg"]
 app.config.from_object('config')
 mail = Mail(app)
 
+config = tf.ConfigProto()
+config.gpu_options.allow_growth = True
+session = tf.Session(config=config)
+
 global pmodel, pgraph, hmodel, hgraph, rmodel, rgraph, emodel, egraph, smodel, sgraph
-pmodel, pgraph = initPsoriasis()
-hmodel, hgraph = initHives()
-rmodel, rgraph = initRingworm()
-emodel, egraph = initEczema()
-smodel, sgraph = initShingles()
+# pmodel, pgraph = initPsoriasis()
+# hmodel, hgraph = initHives()
+# rmodel, rgraph = initRingworm()
+# emodel, egraph = initEczema()
+# smodel, sgraph = initShingles()
 
 psLink = "https://www.hse.ie/eng/health/az/p/psoriasis/symptoms-of-psoriasis.html"
 hiLink = "https://www.hse.ie/eng/health/az/h/hives%20-%20acute/causes-of-urticaria.html"
@@ -43,6 +48,20 @@ def web_app():
     if request.method == 'POST':
         flash('Your email has been sent!', 'success')
     return render_template('upload_page.html')
+
+@app.route('/home', methods=['GET'])
+def homepage():
+    return render_template('homepage.html')
+
+
+@app.route('/userlogin', methods=['GET'])
+def user_login():
+    return render_template('userlogin.html')
+
+@app.route('/professionallogin', methods=['GET'])
+def professional_login():
+    return render_template('professionallogin.html')
+
 
 
 def functToDeleteItems(fullPathToDir):
@@ -231,4 +250,4 @@ def email():
     flash('Your email has been sent!', 'success')
     return render_template('upload_page.html')
 
-app.run(host='127.0.0.0', threaded=True)
+app.run(host='0.0.0.0', threaded=True)

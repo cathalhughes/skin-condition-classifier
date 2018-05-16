@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{url_for('.static', filename='custom.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('.static', filename='custom.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('.static', filename='style.css')}}">
+    <link rel='stylesheet prefetch' href='https://rawgit.com/adrotec/knockout-file-bindings/master/knockout-file-bindings.css'>
+
+
+
+    <title>Skin Condition Classifier</title>
+</head>
+
+  <body class="login">
+    <div>
+
+    <div>
+      <div>
+        <section class="login_content" style="max-width:750px;">
+              <h1>Skin Condition Classifier</h1>
+               <div id="flashmsg">
+                  {% with messages = get_flashed_messages() %}
+                  {% if messages %}
+                  {% for message in messages %}
+                  <div class="alert alert-success alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    {{message}}
+                  </div>
+                    {% endfor %}
+                    {% endif %}
+                    {% endwith %}
+              </div>
+              <hr class="my-4">
+              <p>The professional login allows a professional utilise extra functionality of the system and keep track of their patients conditions. The user login allows a user to have their skin condition classified and update how their condition is.</p>
+              <hr class="my-4">
+              <div>
+                    <a class="btn btn-success" href="/professionallogin" role="button" accesskey="a">Professional Login</a>
+                    <a class="btn btn-success" href="/userlogin" role="button" accesskey="c ">User Login</a>
+              </div>
+
+
+
+
+          </section>
+        </div>
+
+      </div>
+    </div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/knockout/3.1.0/knockout-min.js'></script>
+    <script src='https://rawgit.com/adrotec/knockout-file-bindings/master/knockout-file-bindings.js'></script>
+    <script  src="{{url_for('.static', filename='index.js')}}"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js">
+    <script>
+        $(function() {
+            // setTimeout() function will be fired after page is loaded
+            // it will wait for 5 sec. and then will fire
+            // $(".alert.alert-warning.alert-dismissible").hide() function
+  setTimeout(function() {
+      $(".alert.alert-warning.alert-dismissible").hide('blind', {}, 500)
+  }, 5000);
+})
+</script>
+  </body>
+</html>
